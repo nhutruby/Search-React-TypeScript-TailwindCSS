@@ -7,7 +7,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import { Search } from "./posts/Search";
-import { PostList } from "./posts/PostList";
+import { PostsList } from './posts/PostsList'
 
 function App() {
   return (
@@ -17,13 +17,8 @@ function App() {
           path="/"
           render={() => (
             <React.Fragment>
-
               <Search />
-
-
-
-              <PostList />
-
+              <PostsList />
             </React.Fragment>
           )}
         />

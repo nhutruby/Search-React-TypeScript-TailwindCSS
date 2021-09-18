@@ -1,2 +1,1 @@
-Search posts with React + TypeScript + Tailwind CSS
-
+Search posts with React + Redux + TypeScript + Tailwind CSS
